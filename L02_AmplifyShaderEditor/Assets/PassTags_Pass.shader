@@ -1,10 +1,10 @@
 // Made with Amplify Shader Editor
 // Available at the Unity Asset Store - http://u3d.as/y3X 
-Shader "ShaderTags"
+Shader "PassTags_Pass"
 {
 	Properties
 	{
-		[Enum()]_Int0("Int 0", Int) = 0
+		
 	}
 	
 	SubShader
@@ -45,8 +45,7 @@ Shader "ShaderTags"
 				
 			};
 
-			uniform int _Int0;
-			
+						
 			v2f vert ( appdata v )
 			{
 				v2f o;
@@ -105,8 +104,7 @@ Shader "ShaderTags"
 				
 			};
 
-			uniform int _Int0;
-			
+						
 			v2f vert ( appdata v )
 			{
 				v2f o;
@@ -136,10 +134,8 @@ Shader "ShaderTags"
 }
 /*ASEBEGIN
 Version=15600
-40;90;1311;651;689.1837;215.6733;1.010001;True;True
-Node;AmplifyShaderEditor.IntNode;1;-173.5,-133.5;Float;False;Property;_Int0;Int 0;0;1;[Enum];Create;True;0;1;;True;0;0;0;0;1;INT;0
-Node;AmplifyShaderEditor.ColorNode;5;-299.5,0.5;Float;False;Constant;_Color0;Color 0;2;0;Create;True;0;0;False;0;0.8235294,0.8235294,0.8235294,0;0,0,0,0;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;11;2.519961,90.64998;Float;False;False;2;Float;ASEMaterialInspector;0;8;ASESampleTemplates/DoublePassUnlit;003dfa9c16768d048b74f75c088119d8;0;1;Second;2;False;False;False;False;False;False;False;False;False;False;0;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;True;0;False;-1;True;True;True;True;True;0;False;-1;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque;True;2;0;;0;0;Standard;0;2;0;FLOAT4;0,0,0,0;False;1;FLOAT3;0,0,0;False;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;10;2.519961,-33.35002;Float;False;True;2;Float;ASEMaterialInspector;0;8;ShaderTags;003dfa9c16768d048b74f75c088119d8;0;0;First;2;False;False;False;False;False;False;False;False;False;False;0;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;True;0;False;-1;True;True;True;True;True;0;False;-1;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque;True;2;0;;0;0;Standard;0;2;0;FLOAT4;0,0,0,0;False;1;FLOAT3;0,0,0;False;0
+249;217;1021;419;472.5;105.5;1;True;True
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;5;0,124;Float;False;False;2;Float;ASEMaterialInspector;0;8;ASESampleTemplates/DoublePassUnlit;003dfa9c16768d048b74f75c088119d8;0;1;Second;2;False;False;False;False;False;False;False;False;False;False;0;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;True;0;False;-1;True;True;True;True;True;0;False;-1;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque;True;2;0;;0;0;Standard;0;2;0;FLOAT4;0,0,0,0;False;1;FLOAT3;0,0,0;False;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;4;0,0;Float;False;True;2;Float;ASEMaterialInspector;0;8;PassTags_Pass;003dfa9c16768d048b74f75c088119d8;0;0;First;2;False;False;False;False;False;False;False;False;False;False;0;True;0;1;False;-1;0;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;True;0;False;-1;True;True;True;True;True;0;False;-1;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;1;RenderType=Opaque;True;2;0;;0;0;Standard;0;2;0;FLOAT4;0,0,0,0;False;1;FLOAT3;0,0,0;False;0
 ASEEND*/
-//CHKSM=49C8EE6CF2325702AE01A4520C365C9FADAA919B
+//CHKSM=46169C3492635981B2F34BA10D3B1DDC3B26B3C3

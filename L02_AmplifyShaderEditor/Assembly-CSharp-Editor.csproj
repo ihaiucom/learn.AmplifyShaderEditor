@@ -535,6 +535,7 @@
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexTangentNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RoundOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightPosNode.shader" />
+     <None Include="Assets\PassTags_Pass.shader" />
      <None Include="Assets\AmplifyShaderEditor\Examples\Community\2Sided\2Sided.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_GetLocalVarNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Log2OpNode.shader" />
@@ -703,6 +704,7 @@
      <None Include="Assets\AmplifyShaderEditor\Examples\Official\ReflectRefractSoapBubble\ReflectRefractSoapBubble.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RegisterLocalVarNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCCompareWithRange.shader" />
+     <None Include="Assets\PassTags_Surface.shader" />
      <None Include="Assets\L02_Hello\L02_Hello.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_UnpackScaleNormalNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TriplanarNode.shader" />
@@ -728,6 +730,7 @@
      <None Include="Assets\L02_Hello\L02_Hello03.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FWidthOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LayeredBlendNode.shader" />
+     <None Include="Assets\Sprite.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\UIDefault.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LODFadeNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Examples\Community\HighlightAnimated\Credits.txt" />
