@@ -529,6 +529,7 @@
      <None Include="Assets\AmplifyShaderEditor\ChangeLog.txt" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\ShaderLibrary\ShaderLibrary.txt" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCIf.shader" />
+     <None Include="Assets\L02_Hello\L02_Hello02.shader" />
      <None Include="Assets\AmplifyShaderEditor\Examples\Community\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\AmplifyShaderEditor\Examples\Official\Projectors\ProjectorShadow.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexTangentNode.shader" />
@@ -600,6 +601,7 @@
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendOpsNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TanOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCCompareGreaterEqual.shader" />
+     <None Include="Assets\ShaderTages.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_EncodeViewNormalStereoHlpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Examples\Official\Matcap\MatcapSample.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RangedFloatNode.shader" />
@@ -656,6 +658,7 @@
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FunctionInputNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\Particle Alpha Blend.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosTime.shader" />
+     <None Include="Assets\L02_Hello\GrabPassInvert.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleAddOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RsqrtOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexColorNode.shader" />
@@ -722,6 +725,7 @@
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SwitchNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SwitchByFaceNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendNormalsNode.shader" />
+     <None Include="Assets\L02_Hello\L02_Hello03.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FWidthOpNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LayeredBlendNode.shader" />
      <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\UIDefault.shader" />
